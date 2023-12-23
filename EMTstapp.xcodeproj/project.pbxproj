@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		623CF3692B2FFCE70082B60F /* EMTstappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623CF3682B2FFCE70082B60F /* EMTstappApp.swift */; };
+		623CF36F2B2FFCE90082B60F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623CF36E2B2FFCE90082B60F /* Assets.xcassets */; };
+		623CF3722B2FFCE90082B60F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623CF3712B2FFCE90082B60F /* Preview Assets.xcassets */; };
+		623CF3792B2FFEAE0082B60F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623CF3782B2FFEAE0082B60F /* Coordinator.swift */; };
+		623CF37D2B3002B80082B60F /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623CF37C2B3002B80082B60F /* CoordinatorView.swift */; };
+		623CF37F2B30080D0082B60F /* HotelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623CF37E2B30080D0082B60F /* HotelScreen.swift */; };
+		623CF3812B30083A0082B60F /* HotelDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623CF3802B30083A0082B60F /* HotelDetailScreen.swift */; };
+		623CF3832B30084D0082B60F /* HotelBookScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623CF3822B30084D0082B60F /* HotelBookScreen.swift */; };
+		626976D92B31A8D000A148E3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626976D82B31A8D000A148E3 /* CustomTextField.swift */; };
+		62A44A6B2B3718B0006F8A1D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A44A6A2B3718B0006F8A1D /* String+Ext.swift */; };
+		62A44A6D2B3718CF006F8A1D /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A44A6C2B3718CF006F8A1D /* DropDownView.swift */; };
+		62A44A6F2B3719ED006F8A1D /* FlexibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A44A6E2B3719ED006F8A1D /* FlexibleView.swift */; };
+		62A44A712B371A9D006F8A1D /* CustomSegmentedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A44A702B371A9D006F8A1D /* CustomSegmentedPickerView.swift */; };
+		62E638512B32B23600E3FADC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E638502B32B23600E3FADC /* NetworkManager.swift */; };
+		62E638542B32B27100E3FADC /* HotelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E638532B32B27100E3FADC /* HotelModel.swift */; };
+		62E638562B32B40B00E3FADC /* ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E638552B32B40B00E3FADC /* ErrorMessages.swift */; };
+		62E638582B32B79F00E3FADC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E638572B32B79F00E3FADC /* ViewModel.swift */; };
+		62FF2FB72B35EC480075E517 /* ImagePageScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FF2FB62B35EC480075E517 /* ImagePageScroll.swift */; };
+		62FF2FBA2B3616590075E517 /* SuccessPaidScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FF2FB92B3616590075E517 /* SuccessPaidScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		623CF3652B2FFCE70082B60F /* EMTstapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMTstapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		623CF3682B2FFCE70082B60F /* EMTstappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMTstappApp.swift; sourceTree = "<group>"; };
+		623CF36E2B2FFCE90082B60F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		623CF3712B2FFCE90082B60F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		623CF3782B2FFEAE0082B60F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		623CF37C2B3002B80082B60F /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
+		623CF37E2B30080D0082B60F /* HotelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelScreen.swift; sourceTree = "<group>"; };
+		623CF3802B30083A0082B60F /* HotelDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetailScreen.swift; sourceTree = "<group>"; };
+		623CF3822B30084D0082B60F /* HotelBookScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelBookScreen.swift; sourceTree = "<group>"; };
+		626976D82B31A8D000A148E3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		62A44A6A2B3718B0006F8A1D /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		62A44A6C2B3718CF006F8A1D /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		62A44A6E2B3719ED006F8A1D /* FlexibleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleView.swift; sourceTree = "<group>"; };
+		62A44A702B371A9D006F8A1D /* CustomSegmentedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedPickerView.swift; sourceTree = "<group>"; };
+		62E638502B32B23600E3FADC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		62E638532B32B27100E3FADC /* HotelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelModel.swift; sourceTree = "<group>"; };
+		62E638552B32B40B00E3FADC /* ErrorMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessages.swift; sourceTree = "<group>"; };
+		62E638572B32B79F00E3FADC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		62FF2FB62B35EC480075E517 /* ImagePageScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePageScroll.swift; sourceTree = "<group>"; };
+		62FF2FB92B3616590075E517 /* SuccessPaidScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPaidScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		623CF3622B2FFCE70082B60F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		623CF35C2B2FFCE70082B60F = {
+			isa = PBXGroup;
+			children = (
+				623CF3672B2FFCE70082B60F /* EMTstapp */,
+				623CF3662B2FFCE70082B60F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		623CF3662B2FFCE70082B60F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				623CF3652B2FFCE70082B60F /* EMTstapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		623CF3672B2FFCE70082B60F /* EMTstapp */ = {
+			isa = PBXGroup;
+			children = (
+				62A44A692B37189F006F8A1D /* Extensions */,
+				62E638522B32B26300E3FADC /* Models */,
+				623CF3842B3008550082B60F /* Screens */,
+				62E6384F2B32B21D00E3FADC /* Managers */,
+				626976D72B31A8B700A148E3 /* CustomViews */,
+				623CF3782B2FFEAE0082B60F /* Coordinator.swift */,
+				623CF37C2B3002B80082B60F /* CoordinatorView.swift */,
+				623CF3682B2FFCE70082B60F /* EMTstappApp.swift */,
+				62E638552B32B40B00E3FADC /* ErrorMessages.swift */,
+				623CF36E2B2FFCE90082B60F /* Assets.xcassets */,
+				623CF3702B2FFCE90082B60F /* Preview Content */,
+			);
+			path = EMTstapp;
+			sourceTree = "<group>";
+		};
+		623CF3702B2FFCE90082B60F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				623CF3712B2FFCE90082B60F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		623CF3842B3008550082B60F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				623CF37E2B30080D0082B60F /* HotelScreen.swift */,
+				623CF3802B30083A0082B60F /* HotelDetailScreen.swift */,
+				623CF3822B30084D0082B60F /* HotelBookScreen.swift */,
+				62FF2FB92B3616590075E517 /* SuccessPaidScreen.swift */,
+				62E638572B32B79F00E3FADC /* ViewModel.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		626976D72B31A8B700A148E3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				626976D82B31A8D000A148E3 /* CustomTextField.swift */,
+				62FF2FB62B35EC480075E517 /* ImagePageScroll.swift */,
+				62A44A6C2B3718CF006F8A1D /* DropDownView.swift */,
+				62A44A6E2B3719ED006F8A1D /* FlexibleView.swift */,
+				62A44A702B371A9D006F8A1D /* CustomSegmentedPickerView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		62A44A692B37189F006F8A1D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				62A44A6A2B3718B0006F8A1D /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		62E6384F2B32B21D00E3FADC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				62E638502B32B23600E3FADC /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		62E638522B32B26300E3FADC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				62E638532B32B27100E3FADC /* HotelModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		623CF3642B2FFCE70082B60F /* EMTstapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623CF3752B2FFCE90082B60F /* Build configuration list for PBXNativeTarget "EMTstapp" */;
+			buildPhases = (
+				623CF3612B2FFCE70082B60F /* Sources */,
+				623CF3622B2FFCE70082B60F /* Frameworks */,
+				623CF3632B2FFCE70082B60F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMTstapp;
+			productName = EMTstapp;
+			productReference = 623CF3652B2FFCE70082B60F /* EMTstapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		623CF35D2B2FFCE70082B60F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					623CF3642B2FFCE70082B60F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 623CF3602B2FFCE70082B60F /* Build configuration list for PBXProject "EMTstapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 623CF35C2B2FFCE70082B60F;
+			productRefGroup = 623CF3662B2FFCE70082B60F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				623CF3642B2FFCE70082B60F /* EMTstapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		623CF3632B2FFCE70082B60F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623CF3722B2FFCE90082B60F /* Preview Assets.xcassets in Resources */,
+				623CF36F2B2FFCE90082B60F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		623CF3612B2FFCE70082B60F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623CF3792B2FFEAE0082B60F /* Coordinator.swift in Sources */,
+				623CF3812B30083A0082B60F /* HotelDetailScreen.swift in Sources */,
+				623CF37D2B3002B80082B60F /* CoordinatorView.swift in Sources */,
+				62A44A6B2B3718B0006F8A1D /* String+Ext.swift in Sources */,
+				62A44A6D2B3718CF006F8A1D /* DropDownView.swift in Sources */,
+				62A44A712B371A9D006F8A1D /* CustomSegmentedPickerView.swift in Sources */,
+				62A44A6F2B3719ED006F8A1D /* FlexibleView.swift in Sources */,
+				62E638542B32B27100E3FADC /* HotelModel.swift in Sources */,
+				62E638512B32B23600E3FADC /* NetworkManager.swift in Sources */,
+				62E638582B32B79F00E3FADC /* ViewModel.swift in Sources */,
+				626976D92B31A8D000A148E3 /* CustomTextField.swift in Sources */,
+				62FF2FB72B35EC480075E517 /* ImagePageScroll.swift in Sources */,
+				62FF2FBA2B3616590075E517 /* SuccessPaidScreen.swift in Sources */,
+				623CF3832B30084D0082B60F /* HotelBookScreen.swift in Sources */,
+				62E638562B32B40B00E3FADC /* ErrorMessages.swift in Sources */,
+				623CF37F2B30080D0082B60F /* HotelScreen.swift in Sources */,
+				623CF3692B2FFCE70082B60F /* EMTstappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		623CF3732B2FFCE90082B60F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		623CF3742B2FFCE90082B60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		623CF3762B2FFCE90082B60F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EMTstapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JNHMF9MWK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR.EMTstapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		623CF3772B2FFCE90082B60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EMTstapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JNHMF9MWK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR.EMTstapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		623CF3602B2FFCE70082B60F /* Build configuration list for PBXProject "EMTstapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623CF3732B2FFCE90082B60F /* Debug */,
+				623CF3742B2FFCE90082B60F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		623CF3752B2FFCE90082B60F /* Build configuration list for PBXNativeTarget "EMTstapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623CF3762B2FFCE90082B60F /* Debug */,
+				623CF3772B2FFCE90082B60F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 623CF35D2B2FFCE70082B60F /* Project object */;
+}
